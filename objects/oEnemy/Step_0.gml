@@ -1,19 +1,6 @@
-//Get Player Input
-key_left = keyboard_check(vk_left) || keyboard_check(ord("A")); //return 1 or 0
-key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_up) || keyboard_check(ord("W"));
-
-//Calculate Movement
-var move = key_right - key_left; //depending on 1, 0, it goes left or right
-
-hsp = move * walksp; //4 pixels to the right/left
 
 vsp = vsp + grv; //move by gravity so that it goes down on the wall, the oPlayer's gonna go up if it's vsp-grv;
 //How poisition workds in this studio: the more y coordinate is bigger, the lower the object itself is. 
-
-if (place_meeting(x,y+1,oWall)) && (key_jump){ //if oPlayer's on the foloor and player presses the jump button
-	vsp = -4;
-}
 
 
 //Horizontal Collision
@@ -46,7 +33,7 @@ y = y + vsp;
 
 //Animation
 if (!place_meeting(x, y+1,oWall)) {//why typing the same code: just trying to keep things straightforward
-	sprite_index = sPlayerA;
+	sprite_index = sEnemyA;
 	image_speed = 0; //multiply speed of sprites * 0
 	if (sign(vsp) > 0) sprite_index = 2; else sprite_index = 3;
 }
@@ -54,9 +41,9 @@ else
 {
 	image_speed = 1;
 	if(hsp == 0){
-		sprite_index = sPlayer;
+		sprite_index = sEnemy;
 	}else{
-		sprite_index = sPlayerR;
+		sprite_index = sEnemyR;
 	}		
 }
 

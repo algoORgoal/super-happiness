@@ -1,38 +1,38 @@
 {
-    "id": "99b35650-bbb5-4b79-9f3e-9554db12236a",
+    "id": "ec4fb7b7-6f1c-4ce8-83b7-18c5d719276d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oPlayer",
+    "name": "oEnemy",
     "eventList": [
         {
-            "id": "95524359-3bf2-460a-bbc9-b6981ee3e670",
+            "id": "178306cd-910a-4eb3-8544-03941197017f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "99b35650-bbb5-4b79-9f3e-9554db12236a"
+            "m_owner": "ec4fb7b7-6f1c-4ce8-83b7-18c5d719276d"
         },
         {
-            "id": "a302b715-81bb-4a6f-9fea-3bb14dcf4861",
+            "id": "cea57599-85e5-4c2b-86a9-618043c90bbc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "99b35650-bbb5-4b79-9f3e-9554db12236a"
+            "m_owner": "ec4fb7b7-6f1c-4ce8-83b7-18c5d719276d"
         },
         {
-            "id": "285909bb-fb2d-427e-95a9-5a7414623100",
+            "id": "3707593b-c47b-453f-8bff-2ae2ec7c44e2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 82,
-            "eventtype": 9,
-            "m_owner": "99b35650-bbb5-4b79-9f3e-9554db12236a"
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "ec4fb7b7-6f1c-4ce8-83b7-18c5d719276d"
         }
     ],
     "maskSpriteId": "175d12de-f48a-4107-abe2-65e11b3080e1",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "175d12de-f48a-4107-abe2-65e11b3080e1",
+    "spriteId": "44b08a93-fc3e-4397-a325-5e71f0242b54",
     "visible": true
 }
