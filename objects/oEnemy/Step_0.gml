@@ -11,9 +11,11 @@ if (place_meeting(x+hsp,y,oWall)) //if there's about to be a collision between o
 	while (!place_meeting(x+sign(hsp),y,oWall)) { //sign(): return 1 or 0 depending on if hsp is positive or negative
 		x = x + sign(hsp); //increase/decrease x to 1
 	}
+	//hsp = 0;
+	//if there's no space between them = if they meet each other
+	//move the opposite
+	hsp *= -1;
 	
-	//if there's no space between them
-	hsp= 0;
 }
 x = x + hsp;
 
@@ -27,7 +29,7 @@ if (place_meeting(x,y+vsp,oWall)) //if there's about to be a collision between o
 	}
 	
 	//if there's no space between them
-	vsp= 0;
+	vsp = 0;
 }
 y = y + vsp;
 
