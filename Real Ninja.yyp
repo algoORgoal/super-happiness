@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "763d7b9f-7e2c-4034-9f2e-ea29744861ce",
+            "Value": {
+                "id": "3c652043-e478-4afa-a82e-7d802f428e7e",
+                "resourcePath": "objects\\oEnemyDead\\oEnemyDead.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7d0a8ad8-d9eb-4cd9-9d7d-c856a1445787",
             "Value": {
                 "id": "e6dd8cd5-85f1-4ac2-be5c-2d1b88a1390b",
@@ -196,6 +204,14 @@
                 "id": "e4384074-cafd-4f1b-a0ef-3ea04e459f38",
                 "resourcePath": "sprites\\sBullet\\sBullet.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8ac9e1f5-0067-44a3-9a19-8d80c9c5e834",
+            "Value": {
+                "id": "50f77eba-00fe-418c-9bad-ba1f9bd69be8",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -228,6 +244,14 @@
                 "id": "2b750efa-904f-4e55-8d5e-73ded9232d4d",
                 "resourcePath": "objects\\oPlayer\\oPlayer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "ba92d2c9-f5f1-40fa-926a-34ccaa93c469",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
             }
         },
         {
