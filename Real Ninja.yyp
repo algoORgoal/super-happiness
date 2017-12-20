@@ -271,10 +271,26 @@
             }
         },
         {
+            "Key": "b7b878a6-a9b6-47bf-a41a-36be333e3dc6",
+            "Value": {
+                "id": "13d732cf-9baf-4c36-99a2-ceeeddcb7dff",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "bc104e1d-35d7-4691-9e25-57d55bc6aaf8",
             "Value": {
                 "id": "2e0d040b-922c-4d90-a4c1-4cead9710813",
                 "resourcePath": "sprites\\sEnemyR\\sEnemyR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c3b027cd-bd59-4909-8d19-d7d627c82728",
+            "Value": {
+                "id": "58d4cb31-9f0f-4202-87c7-bebdbf140386",
+                "resourcePath": "sprites\\sTiles\\sTiles.yy",
                 "resourceType": "GMSprite"
             }
         },
