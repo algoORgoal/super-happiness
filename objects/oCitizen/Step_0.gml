@@ -1,4 +1,3 @@
-
 vsp = vsp + grv; //move by gravity so that it goes down on the wall, the oPlayer's gonna go up if it's vsp-grv;
 //How poisition workds in this studio: the more y coordinate is bigger, the lower the object itself is. 
 
