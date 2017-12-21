@@ -16,12 +16,12 @@ else{
 	image_angle = controller_angle; //
 }
 
-firingdelay -= 1;
+firingdelay -= 0.8;
 recoil = max(0, recoil - 1);
 
-if (mouse_check_button(mb_left)) || gamepad_button_check(0, gp_shoulderlb) && (firingdelay < 0){
+if (mouse_check_button(mb_left) || gamepad_button_check(0, gp_shoulderlb)) && (firingdelay < 0){
 	recoil = 4;
-	firingdelay = 20;
+	firingdelay = 5;
 	//with (oPlayer) //it would apply to oPlayer
 	with (instance_create_layer(x,y, "Bullets", oBullet)) //the way get an id
 	{

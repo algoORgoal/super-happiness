@@ -43,7 +43,7 @@ if (place_meeting(x+hsp,y,oWall)) //if there's about to be a collision between o
 	//if there's no space between them
 	hsp= 0;
 }
-x = x + hsp;
+x = x + hsp ;
 
 //Vertical Collision
 if (place_meeting(x,y+vsp,oWall)) //if there's about to be a collision between oWall and oPlayer
